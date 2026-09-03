@@ -1,0 +1,42 @@
+[
+  {
+    "id": "R001",
+    "name": "Amelia R.",
+    "room": "101",
+    "heartRate": 72,
+    "location": "Room",
+    "deviceStatus": "Online",
+    "status": "Normal",
+    "lastReading": "2 mins ago"
+  },
+  {
+    "id": "R002",
+    "name": "Noah K.",
+    "room": "104",
+    "heartRate": 94,
+    "location": "Lounge",
+    "deviceStatus": "Online",
+    "status": "Attention",
+    "lastReading": "1 min ago"
+  },
+  {
+    "id": "R003",
+    "name": "Olivia T.",
+    "room": "108",
+    "heartRate": 110,
+    "location": "Hallway",
+    "deviceStatus": "Online",
+    "status": "Critical",
+    "lastReading": "Just now"
+  },
+  {
+    "id": "R004",
+    "name": "James L.",
+    "room": "110",
+    "heartRate": 76,
+    "location": "Dining Area",
+    "deviceStatus": "Online",
+    "status": "Normal",
+    "lastReading": "3 mins ago"
+  }
+]
