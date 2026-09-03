@@ -9,91 +9,152 @@
 
 <body>
 
-  <h1>CareSense Clinical Intelligence Demo</h1>
-  <p>Independent portfolio prototype using synthetic aged-care monitoring data.</p>
+ <body>
 
-  <hr>
+  <div class="header">
+    <div>
+      <h1>CareSense Clinical Intelligence</h1>
+      <p>Independent portfolio demo using synthetic aged-care monitoring data</p>
+    </div>
 
-  <h2>Overview</h2>
-
-  <div>
-    <h3>10</h3>
-    <p>Residents Monitored</p>
+    <div class="live-status">
+      ● Demo Live
+    </div>
   </div>
 
-  <div>
-    <h3>3</h3>
-    <p>Active Alerts</p>
+  <div class="kpi-grid">
+
+    <div class="kpi-card">
+      <span class="kpi-label">Residents Monitored</span>
+      <h2>10</h2>
+      <p>Active residents</p>
+    </div>
+
+    <div class="kpi-card">
+      <span class="kpi-label">Active Alerts</span>
+      <h2>3</h2>
+      <p>Require review</p>
+    </div>
+
+    <div class="kpi-card">
+      <span class="kpi-label">Devices Online</span>
+      <h2>96%</h2>
+      <p>Sensor availability</p>
+    </div>
+
+    <div class="kpi-card">
+      <span class="kpi-label">Falls Detected Today</span>
+      <h2>1</h2>
+      <p>Safety event</p>
+    </div>
+
   </div>
 
-  <div>
-    <h3>96%</h3>
-    <p>Devices Online</p>
+  <div class="section">
+
+    <div class="section-header">
+      <h2>Resident Monitoring</h2>
+      <span>Latest observations</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Resident</th>
+          <th>Room</th>
+          <th>Heart Rate</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Amelia R.</td>
+          <td>101</td>
+          <td>72 bpm</td>
+          <td>Room</td>
+          <td><span class="status normal">Normal</span></td>
+        </tr>
+
+        <tr>
+          <td>Noah K.</td>
+          <td>104</td>
+          <td>94 bpm</td>
+          <td>Lounge</td>
+          <td><span class="status attention">Attention</span></td>
+        </tr>
+
+        <tr>
+          <td>Olivia T.</td>
+          <td>108</td>
+          <td>110 bpm</td>
+          <td>Hallway</td>
+          <td><span class="status critical">Critical</span></td>
+        </tr>
+
+        <tr>
+          <td>James L.</td>
+          <td>110</td>
+          <td>76 bpm</td>
+          <td>Dining Area</td>
+          <td><span class="status normal">Normal</span></td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
 
-  <hr>
+  <div class="section">
 
-  <h2>Resident Monitoring</h2>
+    <div class="section-header">
+      <h2>Recent Clinical Alerts</h2>
+      <span>Simulated alerts</span>
+    </div>
 
-  <table border="1">
-    <tr>
-      <th>Resident</th>
-      <th>Room</th>
-      <th>Heart Rate</th>
-      <th>Location</th>
-      <th>Status</th>
-    </tr>
+    <div class="alert critical-alert">
+      <div>
+        <strong>Possible Fall Detected</strong>
+        <p>Olivia T. · Room 108</p>
+      </div>
+      <span>Critical</span>
+    </div>
 
-    <tr>
-      <td>Amelia R.</td>
-      <td>101</td>
-      <td>72 bpm</td>
-      <td>Room</td>
-      <td>Normal</td>
-    </tr>
+    <div class="alert attention-alert">
+      <div>
+        <strong>Unusual Inactivity</strong>
+        <p>Noah K. · Room 104</p>
+      </div>
+      <span>Attention</span>
+    </div>
 
-    <tr>
-      <td>Noah K.</td>
-      <td>104</td>
-      <td>94 bpm</td>
-      <td>Lounge</td>
-      <td>Attention</td>
-    </tr>
+    <div class="alert warning-alert">
+      <div>
+        <strong>Device Offline</strong>
+        <p>Room 112 Sensor</p>
+      </div>
+      <span>Warning</span>
+    </div>
 
-    <tr>
-      <td>Olivia T.</td>
-      <td>108</td>
-      <td>110 bpm</td>
-      <td>Hallway</td>
-      <td>Critical</td>
-    </tr>
-  </table>
+  </div>
 
-  <hr>
+  <div class="section about">
 
-  <h2>Recent Clinical Alerts</h2>
+    <h2>About This Prototype</h2>
 
-  <ul>
-    <li>Possible Fall — Room 108 — Critical</li>
-    <li>Unusual Inactivity — Room 104 — Attention</li>
-    <li>Device Offline — Room 112 — Warning</li>
-  </ul>
+    <p>
+      CareSense is an independent portfolio project demonstrating how
+      synthetic resident, sensor and monitoring data can be transformed
+      into a simple clinical intelligence interface for care teams.
+    </p>
 
-  <hr>
+    <p class="disclaimer">
+      All names, measurements and events are fictional. This project does
+      not represent the actual platform, architecture, data or intellectual
+      property of DreamsEdge or any other organisation.
+    </p>
 
-  <h2>About This Project</h2>
-
-  <p>
-    This is an independent portfolio prototype demonstrating how
-    synthetic sensor, resident and clinical monitoring data can be
-    presented through a simple clinical intelligence dashboard.
-  </p>
-
-  <p>
-    All resident names, measurements and events are fictional.
-    This project does not represent the real platform, architecture,
-    data or intellectual property of DreamsEdge or any other organisation.
-  </p>
+  </div>
 
 </body>
 </html>
