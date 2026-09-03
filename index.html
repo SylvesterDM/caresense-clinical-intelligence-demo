@@ -9,8 +9,6 @@
 
 <body>
 
- <body>
-
   <div class="header">
     <div>
       <h1>CareSense Clinical Intelligence</h1>
@@ -108,6 +106,17 @@
   <div class="section">
 
     <div class="section-header">
+      <h2>Resident Heart Rate Trend</h2>
+      <span>Simulated sensor readings</span>
+    </div>
+
+    <canvas id="heartRateChart"></canvas>
+
+  </div>
+
+  <div class="section">
+
+    <div class="section-header">
       <h2>Recent Clinical Alerts</h2>
       <span>Simulated alerts</span>
     </div>
@@ -155,6 +164,9 @@
     </p>
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
